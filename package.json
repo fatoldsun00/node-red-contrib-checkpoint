@@ -1,7 +1,7 @@
 {
-  "name": "node-red-contrib-checkpoint",
+  "name": "red-contrib-checkpoint",
   "version": "0.0.1",
-  "description": "",
+  "description": "A simple node that trigger complete event. Usefull for decoupling push of trace, log, chat, ...",
   "main": "node-red-checkpoint.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,9 +16,8 @@
     "url": "git+https://github.com/fatoldsun00/node-red-contrib-checkpoint.git"
   },
   "keywords": [
-    "exif",
-    "insert exif",
-    "write exif"
+    "checkpoint",
+    "complete"
   ],
   "author": "FatOldSun",
   "license": "ISC",
@@ -28,5 +27,6 @@
   "homepage": "https://github.com/fatoldsun00/node-red-contrib-checkpoint#readme",
   "dependencies": {
     "moment": "^2.24.0"
-  }
+  },
+  "devDependencies": {}
 }
