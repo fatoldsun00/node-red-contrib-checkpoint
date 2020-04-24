@@ -1,6 +1,6 @@
 {
   "name": "red-contrib-checkpoint",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple node that trigger complete event. Usefull for decoupling push of trace, log, chat, ...",
   "main": "node-red-checkpoint.js",
   "scripts": {
