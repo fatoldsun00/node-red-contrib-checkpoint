@@ -1,19 +1,19 @@
 {
-  "name": "red-contrib-checkpoint",
-  "version": "0.0.2",
+  "name": "red-contrib-checkpointcomplete",
+  "version": "0.0.23",
   "description": "A simple node that trigger complete event. Usefull for decoupling push of trace, log, chat, ...",
-  "main": "node-red-checkpoint.js",
+  "main": "node-red-checkpointComplete.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "node-red": {
     "nodes": {
-      "node-red-checkpoint.js": "node-red-checkpoint.js"
+      "node-red-checkpointcomplete.js": "node-red-checkpointcomplete.js"
     }
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fatoldsun00/node-red-contrib-checkpoint.git"
+    "url": "git+https://github.com/fatoldsun00/node-red-contrib-checkpointcomplete.git"
   },
   "keywords": [
     "checkpoint",
@@ -22,9 +22,9 @@
   "author": "FatOldSun",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fatoldsun00/node-red-contrib-checkpoint/issues"
+    "url": "https://github.com/fatoldsun00/node-red-contrib-checkpointcomplete/issues"
   },
-  "homepage": "https://github.com/fatoldsun00/node-red-contrib-checkpoint#readme",
+  "homepage": "https://github.com/fatoldsun00/node-red-contrib-checkpointcomplete#readme",
   "dependencies": {
     "moment": "^2.24.0"
   },
